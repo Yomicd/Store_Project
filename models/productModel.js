@@ -8,7 +8,8 @@ const teaProducts = [
         Category: "stress relief",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Chamomile", " Lavender", " Kava"]
+        Ingredients: ["Chamomile", " Lavender", " Kava"],
+        Description: "If you're experiencing anxiety, bouts of stress, or generally would like a calming glass of nourishment, enjoy the soothing taste of chamomile with floral hints of lavender, while Kava gives you the chill you need"
     },
     
     {
@@ -17,7 +18,8 @@ const teaProducts = [
         Category: "focus",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Green Tea", " Ginger", " Peach"]
+        Ingredients: ["Green Tea", " Ginger", " Peach"],
+        Description: "Can you focus on....tea? This tea is for those who's mind needs a boost of clarity and focus. If that's you, Clari-tea is right for you"
         
     },
     
@@ -27,7 +29,8 @@ const teaProducts = [
         Category: "Energy Boosting",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Pu-erh", " Peppermint", " Peach"]
+        Ingredients: ["Pu-erh", " Peppermint", " Peach"],
+        Description: "Big Boost Energy! The Power of Pu-erh provides a boost to your mind and body with the refreshing addition of peppermint and a sweet peach treat"
     },
     
     {
@@ -36,7 +39,8 @@ const teaProducts = [
         Category: "Mood Enhancing",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Rose Petals", " Tulsi", " Hibiscus"]
+        Ingredients: ["Rose Petals", " Tulsi", " Hibiscus"],
+        Description: "This is sure to put you in a beautiful mood. The tantalizing taste of rose, the nourishment of tulsi, and the delicious flavor of hibiscus is the perfect recipe for self care"
     }]
     
 module.exports = teaProducts;

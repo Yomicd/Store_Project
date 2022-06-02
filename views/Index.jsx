@@ -10,17 +10,17 @@ const thisNav = {
     padding:" 8px",
     height: "15px",
     marginBottom: ".2em",
-    textAlign: "center"
+    textAlign: "center",
+    justifyContent: "center"
 
     
 
 
 }
 const navContainer = {
-    display: "flex",
     borderWidth:".2px",
-    justifyContent: "space-around",
-    margin: ".2em"
+    margin: ".2em",
+    display: "flex"
 }
 
 const teaImage = {
@@ -76,14 +76,19 @@ class Index extends React.Component{
         const {teaProducts} = this.props
         return(
             
-            <>
-                <body style={indexBody}>
-
-                    <div style={bodyContainer}>
-                    <div style={navContainer}>
+            <> 
+            <div style={navContainer}>
                     <a href="/" style={thisNav}>Home</a>
                     <nav style={thisNav}>Wellness Tips</nav>
                     </div>
+
+            
+                
+            
+                <body style={indexBody}>
+
+                    <div style={bodyContainer}>
+                    
                     </div>
                         
                     {

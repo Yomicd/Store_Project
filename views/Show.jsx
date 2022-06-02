@@ -1,14 +1,11 @@
 //require react
 const React = require('react');
 const teaProducts = require('../models/productModel')
-const thisColor = {backgroundColor: "#efdb3e"}
 const showBody = {
     backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxYSH26w8Acs1o2QbGXjzQ1ZDaZFgXWSO166f5FifZUBxg7vEBZtg5GXFLrJJtvRh30Vs&usqp=CAU')",
     backgroundColor: "#efdb3e",
     color: "a68fb6",
     fontWeight: "200",
-    
-
 }
 
 const showHeader = {
@@ -44,6 +41,7 @@ class Show extends React.Component{
                   <h1 style={showHeader}>{teaProducts.Name}</h1>
                   <img style={teaImage}src={teaProducts.img}></img>
                   <br></br>
+                  <h4>Description: {teaProducts.Description}</h4>
                   <h3>Price: {teaProducts.Price} </h3>
                   <h4>Ingredients: {teaProducts.Ingredients}</h4>
                   <h5>In Stock: {teaProducts.Quantity}</h5>

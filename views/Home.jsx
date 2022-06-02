@@ -6,17 +6,19 @@ const teaProducts = require('../models/productModel')
 const myBody = { backgroundColor: "a68fb6",
                 color: "white ",
                 margin: ".5rem",
-                backgroundSize: "cover",
+                backgroundSize: "cover no-repeat",
                 backgroundImage: "url('https://loveincstatic.blob.core.windows.net/lovefood/2020/Loose-leaf-tea/rising-popularity-of-tea.jpg')"
 
 }
 const mytitle = { textAlign: "center",
+margin: "4rem"
     
 }
 
 const myh4 = {
     textAlign: "center",
-    paddingTop: "10px"
+    paddingTop: "10px",
+    margin: "4rem"
 }
 
 const teaContainer = {
@@ -31,7 +33,7 @@ const myLinks = {
     display: "flex",
     justifyContent: "center",
     backgroundColor: "sea green",
-    
+    margin: "8rem"
     
 
 }
@@ -55,7 +57,7 @@ class Home extends React.Component{
             <h1 style ={mytitle}>"What's The Tea"</h1>
                   
                         <>
-                        <h4 style={myh4}>Providing Wellness with every cup</h4>
+                        <h4 style={myh4}>Providing Wellness with Every Cup</h4>
                         <a style={myLinks} href='/products'>Start Here</a>
                         </>
                        
