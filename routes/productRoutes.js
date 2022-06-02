@@ -1,9 +1,7 @@
 // import express to create express routers
 const express = require("express");
-
-//creaet router
+//create router
 const router = express.Router();
-
 const productControllers = require('../controllers/productControllers')
 
 //router 1

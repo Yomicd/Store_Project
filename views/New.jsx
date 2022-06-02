@@ -1,8 +1,6 @@
 //inmport react
-
 const React = require('react');
 //const teaProducts = require('../models/productModel')
-
 const newFormBody = {
     backgroundColor: "white",
     color: "#c8a27c",
@@ -10,8 +8,6 @@ const newFormBody = {
     margin: "2rem",
     padding: "30em",
     paddingTop: "5px"
-    
-
 }
 const formelements = {
     color: "#c8a27c",

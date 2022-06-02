@@ -11,14 +11,11 @@ const showBody = {
 const showHeader = {
     justifyContent: "center",
     color: "#ebb1ba"
-
 }
 const myLinks = {
     padding: ".5rem",
     color: "#c8a27c"
-
 }
-
 const thesehs = {
     color: "#c8a27c",
     fontWeight: "200",
@@ -30,8 +27,7 @@ const teaImage = {
     display:"50 px",
     justifyContent: "center",
     paddingRight: "15px",
-    paddingLeft: "15px"
-    
+    paddingLeft: "15px"   
 }
 
 
@@ -44,8 +40,11 @@ class Show extends React.Component{
             <>
                 
                   <body style={{showBody}}>
+
                   <h1 style={showHeader}>{teaProducts.Name}</h1>
+
                   <img style={teaImage}src={teaProducts.img}></img>
+
                   <br></br>
                   <h4 style={thesehs}>Description: {teaProducts.Description}</h4>
                   <h4 style={thesehs}>Price: {teaProducts.Price} </h4>
@@ -55,7 +54,6 @@ class Show extends React.Component{
             
                 <a style={myLinks} href='/products/'>Back</a>
                 <br></br>
-
                 <a style={myLinks} href='/product/:id/edit'>Edit</a>
                 <br></br>
                 <a style={myLinks} href={`/products/${teaProducts.id}`}>Delete</a>
@@ -65,8 +63,5 @@ class Show extends React.Component{
 
     }
 }
-
-
-
 //export single product
 module.exports = Show;

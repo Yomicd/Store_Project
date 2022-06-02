@@ -12,25 +12,17 @@ const thisNav = {
     marginBottom: ".2em",
     textAlign: "center",
     justifyContent: "center"
-
-    
-
-
 }
 const navContainer = {
     borderWidth:".2px",
     margin: ".2em",
     display: "flex"
 }
-
 const teaImage = {
     width: "300px",
     height: "300px",
     padding: "2px",
-    margin: ".2rem",
-
-   
-    
+    margin: ".2rem",   
 }
 
 const bodyContainer = {
@@ -45,17 +37,11 @@ const indexBody = {
     display: "flex",
     justifyContent: "space-evenly",
     margin: "8rem",
-    
-    
-    
-
-
 }
 const indexItem = { color: "#ebb1ba",
 display:"flex",
 
 }
-
 const thisFooter = {
     backgroundColor: "#ebb1ba",
     color: "white",
@@ -65,7 +51,6 @@ const thisFooter = {
     display:"flex",
     position: "relative",
     top: "40px"
-
 }
 
 
@@ -118,7 +103,7 @@ class Index extends React.Component{
                 </body> 
                  <>
                     <a style={indexItem} href={`/products/new`}>Create New Product</a>
-                    </>
+                </>
             
 
             </>
@@ -126,7 +111,6 @@ class Index extends React.Component{
         )
            
                 }}      
-
 
 //export tea index
 module.exports = Index

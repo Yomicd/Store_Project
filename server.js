@@ -2,7 +2,6 @@
 const express = require('express');
 const teaProducts = require('./models/productModel')
 const app = express();
-
 const dotenv = require('dotenv')
 //use dotenv to connect to our config file, run before app is called
 
@@ -17,7 +16,6 @@ app.use((req, res, next) => {
 //define variable for my product model
 const teaData = require('./models/productModel')
 //Homepage
-
 app.get('/', (req, res)=>{
     res.render('Home', {teaProducts:teaData})
 })
