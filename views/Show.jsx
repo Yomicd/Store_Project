@@ -18,6 +18,12 @@ const myLinks = {
     color: "#c8a27c"
 
 }
+
+const thesehs = {
+    color: "#c8a27c",
+    fontWeight: "200",
+    alignText: "center"
+}
 const teaImage = {
     width: "500px",
     height: "500 px",
@@ -41,9 +47,9 @@ class Show extends React.Component{
                   <h1 style={showHeader}>{teaProducts.Name}</h1>
                   <img style={teaImage}src={teaProducts.img}></img>
                   <br></br>
-                  <h4>Description: {teaProducts.Description}</h4>
-                  <h3>Price: {teaProducts.Price} </h3>
-                  <h4>Ingredients: {teaProducts.Ingredients}</h4>
+                  <h4 style={thesehs}>Description: {teaProducts.Description}</h4>
+                  <h4 style={thesehs}>Price: {teaProducts.Price} </h4>
+                  <h4 style={thesehs}>Ingredients: {teaProducts.Ingredients}</h4>
                   <h5>In Stock: {teaProducts.Quantity}</h5>
     
             
