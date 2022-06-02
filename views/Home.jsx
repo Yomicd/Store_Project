@@ -7,7 +7,7 @@ const myBody = { backgroundColor: "a68fb6",
                 color: "white ",
                 margin: ".5rem",
                 backgroundSize: "cover",
-                backgroundImage: "url('https://cdn.shopify.com/s/files/1/0428/8521/products/Green1_1024x1024.jpg?v=1584288447')"
+                backgroundImage: "url('https://loveincstatic.blob.core.windows.net/lovefood/2020/Loose-leaf-tea/rising-popularity-of-tea.jpg')"
 
 }
 const mytitle = { textAlign: "center",

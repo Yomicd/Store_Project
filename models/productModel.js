@@ -17,7 +17,7 @@ const teaProducts = [
         Category: "focus",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Green Tea", "Ginger", "Mint"],
+        Ingredients: ["Green Tea", "Ginger", "Peach"]
         
     },
     
@@ -27,7 +27,7 @@ const teaProducts = [
         Category: "Energy Boosting",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Pu-erh", "Peppermint", "Peach"]
+        Ingredients: ["Pu-erh", " Peppermint", " Peach"]
     },
     
     {

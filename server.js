@@ -35,7 +35,7 @@ app.get('/product/:id', (req, res)=>{
 })
 
 // form to create a new product
-app.post('/products/new', (req, res)=>{
+app.get('/products/new', (req, res)=>{
     res.render('New')
 })
 

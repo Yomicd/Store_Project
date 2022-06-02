@@ -7,7 +7,7 @@ const showBody = {
     backgroundColor: "#efdb3e",
     color: "a68fb6",
     fontWeight: "200",
-    display:"flex"
+    
 
 }
 

@@ -1,5 +1,6 @@
 //inmport react
 const React = require('react');
+const teaProducts = require('../models/productModel')
 
 const newFormBody = {
     backgroundColor: "#efdb3e",
@@ -22,7 +23,7 @@ class New extends React.Component{
                 <h3 style={myh3}>Add A New Tea</h3>
 
 
-            <form action='/products' method='post'>
+            <form action='/products/new' method='post'>
                 Product Name: <input type='text' name='name' placeholder='type'></input>
                 Product Price: <input type='text' name='price' placeholder='type'></input>
                 Product Category: <input type='text' name='category' placeholder='type'></input>
