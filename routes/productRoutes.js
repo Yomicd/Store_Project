@@ -4,12 +4,12 @@ const express = require("express");
 //creaet router
 const router = express.Router();
 
-const productControllers = require('')
+const productControllers = require('../controllers/productControllers')
 
 //router 1
 //index of all products
 ('/products')
-.get
+.get(productControllers.getAllTeas)
 
 //new product
 ('products/new')
