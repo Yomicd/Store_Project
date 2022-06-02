@@ -39,26 +39,25 @@ app.get('/products/new', (req, res)=>{
     res.render('New')
 })
 
-//delete an item
-app.get('/products/:id/delete', (req, res)=>{
-    console.log(req.params.id)
-    console.log(deletedTea)
-    res.redirect('Delete')
-})
-
 //update an item with edit form
-app.post('products/:id/Edit', (req, res)=>{
-    teaProducts.push(req.body)
-    res.redirect('products')
+app.post('/product/:id/edit', (req, res)=>{
+    res.render('Edit')
+    teaProducts.findbyIdAndUpdate()
+    
 
 })
 // update product data
-app.put('products/:id', (req, res)=>{
-    res.render('Show',{teaProducts:teaData[req.params.id]})
+// app.put('product/:id', (req, res)=>{
+//     res.render('Show',{teaProducts:teaData[req.params.id]})
 
 
-})
-
+// })
+//delete an item
+// app.get('/products/:id/delete', (req, res)=>{
+//     console.log(req.params.id)
+//     console.log(deletedTea)
+//     res.redirect('Delete')
+// })
 
 
 

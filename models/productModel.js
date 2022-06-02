@@ -8,7 +8,7 @@ const teaProducts = [
         Category: "stress relief",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Chamomile", "Lavender", "Kava"]
+        Ingredients: ["Chamomile", " Lavender", " Kava"]
     },
     
     {
@@ -17,7 +17,7 @@ const teaProducts = [
         Category: "focus",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Green Tea", "Ginger", "Peach"]
+        Ingredients: ["Green Tea", " Ginger", " Peach"]
         
     },
     
@@ -36,7 +36,7 @@ const teaProducts = [
         Category: "Mood Enhancing",
         Price: "$30.00",
         Quantity: "7",
-        Ingredients: ["Rose Petals", "Tulsi", "Hibiscus"]
+        Ingredients: ["Rose Petals", " Tulsi", " Hibiscus"]
     }]
     
 module.exports = teaProducts;

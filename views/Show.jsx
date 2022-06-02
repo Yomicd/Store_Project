@@ -52,7 +52,7 @@ class Show extends React.Component{
                 <a style={myLinks} href='/products/'>Back</a>
                 <br></br>
 
-                <a style={myLinks} href='/products:id/edit'>Edit</a>
+                <a style={myLinks} href='/product/:id/edit'>Edit</a>
                 <br></br>
                 <a style={myLinks} href={`/products/${teaProducts.id}`}>Delete</a>
                 </body>

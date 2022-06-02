@@ -44,7 +44,8 @@ const indexBody = {
     background: "cover",
     display: "flex",
     justifyContent: "space-evenly",
-    margin: "8rem"
+    margin: "8rem",
+    
     
     
 
@@ -89,7 +90,7 @@ class Index extends React.Component{
                         this.props.teaProducts.map((teaProducts,i, props)=>{
                             return(
 
-                                
+                                 <>
                                 <div style={teaImage}>
                                     <a style={indexItem} href={`/product/${i}`}>{teaProducts.Name}</a>
                                     <img style={teaImage}src={teaProducts.img}></img>
@@ -99,15 +100,20 @@ class Index extends React.Component{
                                 </div>
                                
                                 
+                                </>
+                               
+                                
 
                                 
                             )
                         })
                     }
                 
-
+                   
                 </body> 
-                
+                 <>
+                    <a style={indexItem} href={`/products/new`}>Create New Product</a>
+                    </>
             
 
             </>
